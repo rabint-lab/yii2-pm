@@ -6,7 +6,7 @@ use yii\widgets\ActiveForm;
 /* @var $this yii\web\View */
 /* @var $model \rabint\pm\models\Message */
 /* @var $form yii\widgets\ActiveForm */
-$userList = \yii\helpers\ArrayHelper::map(rabint\user\models\search\userSearch::searchFactory([],true)->all(), 'id', 'username');
+$userList = \yii\helpers\ArrayHelper::map(\rabint\user\models\search\UserSearch::searchFactory([],true)->all(), 'id', 'displayName');
 //pr($userList,1);
 ?>
 
