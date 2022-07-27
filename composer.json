@@ -2,7 +2,7 @@
     "name": "rabint/pm",
     "type": "library",
     "description": "rabint message manager",
-    "license": "rabint",
+    "license": "MIT",
     "authors": [{
             "name": "rabint",
             "email": "info@rabint.ir",
